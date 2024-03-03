@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>linkler</title>
+    </head>
+      <body>
+        <h1>linkler</h1>
+        <a href="https://www.yildiz.edu.tr/" target="_blank">YTÜ We Sayfasına Git</a>
+        <a href="index.html">Ana Sayfa</a>
+        <hr> 
+        <h2>Hakkımda</h2>
+        <p>Takım çalışmasına yatkın olduğumu düşünüyorum. 
+            Çalışmalar sırasında çeşitli fikirler üretebilir,takım arkadaşlarımla 
+            çalışmakta olduğumuz proje üzerine kreatif çalışmalar yapabilirim. 
+            İş demek her an bir kriz oluşabileceği anlamına gelir,kriz yönetiminde de 
+            başarılı olduğumu düşünüyorum. Soğukkanlı bir şekilde krizi çözmeye yönelik
+            alternatif rotalar oluşturabilir ve sorunun çözülmesine hatrı sayılır 
+            katkıda bulunabilirim böylece projemiz sorunsuz ilerlemez ancak doğabilecek 
+            her sorunu akılcı çözümle ortadan kaldırabileceğimizin garantisini verecek 
+            bir takımla yola çıkar ve hedefimize ulaşırız.</p>
+     </body>
+</html>
