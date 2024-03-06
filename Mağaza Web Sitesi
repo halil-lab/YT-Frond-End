@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Kırmızı Kahve</title>
+</head>
+<body>
+ <img src="m1.jpg" alt="">
+</body>
+<h1>dünyanın en iyi kahvesini satıyoruz. Endonezya, binlerce adalardan oluşmuş, 
+    dünyanın en büyük kahve üreticilerinden biridir.
+     Bu adalardan en çok bilinenleri: Sumatra, Java,
+      ve Sulawesi adalarıdır ve bu adalarda yetişen 
+      kahve tüm dünyada yüksek kaliteli kahve olarak 
+      olarak bilinir.</h1>
+<h2>
+   <a href="http://127.0.0.1:5500/images/image.html">ürünlerimiz</a> 
+</h2>
+
+
+</html>
