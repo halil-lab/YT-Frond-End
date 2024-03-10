@@ -85,3 +85,95 @@
 
 </body>
 </html>
+
+style
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #584747;
+    color: antiquewhite;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+body h1{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+table, tr, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1px 0;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 30px 0;
+    }
+}
+
