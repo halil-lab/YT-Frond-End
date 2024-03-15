@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kişisel Sorgu Formu</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1>Kişisel Bilgi Sorgu Formu</h1>
+  <form id="personalForm" action="#" method="POST">
+    <div class="form-group">
+      <label for="firstName">Adınız:</label>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Soyadınız:</label>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+    <div class="form-group">
+      <label for="email">E-posta Adresiniz:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Telefon Numaranız:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label>Cinsiyetiniz:</label>
+      <div>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Erkek</label>
+      </div>
+      <div>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Kadın</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="birthdate">Doğum Tarihiniz:</label>
+      <input type="date" id="birthdate" name="birthdate" required>
+    </div>
+    <div class="form-group">
+      <label for="contactPref">İletişim Tercihiniz:</label>
+      <select id="contactPref" name="contactPref" required>
+        <option value="">Seçiniz</option>
+        <option value="email">E-posta</option>
+        <option value="phone">Telefon</option>
+        <option value="sms">SMS</option>
+      </select>
+    </div>
+    <button type="submit">Gönder</button>
+  </form>
+</div>
+</body>
+</html>
 
+
+CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #876363;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #544d6d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(57, 22, 48, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d31212df;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3fa743;
+    color: #893535;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #109517;
+  }
+  
+  /* Responsive CSS */
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    select,
+    button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+  }
